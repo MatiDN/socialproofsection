@@ -4,7 +4,7 @@
     --main-dark-magenta: hsl(300, 43%, 22%);
     --main-soft-pink: hsl(333, 80%, 67%);
     --main-dark-grayish-magenta: hsl(303, 10%, 53%);
-    --main-light-grayish-magenta: hsl(300, 24%, 90%);
+    --main-light-grayish-magenta: hsl(300, 24%, 96%);
 }
 
 *{
@@ -15,7 +15,6 @@
 
 body{
     font-family: 'League Spartan', open-sans;
-    Font-size: 15px;
     background: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -49,6 +48,7 @@ header p{
 .stars-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -204,6 +204,13 @@ header p{
         margin: 125px auto;
         max-width: 1110px;
     }
+    header h1{
+        font-size: 65px;
+        font-weight: 700;
+        text-align: left;
+        margin: 0;
+        line-height: 65px;
+    }
     .cards-container{
         display: flex;
         flex-direction: row;
@@ -221,12 +228,14 @@ header p{
         margin: 0;
     }
     header h1{
-        font-size: 45px;
+        font-size: 65px;
+        font-weight: 700;
         text-align: left;
         margin: 0;
-        line-height: 45px;
+        line-height: 65px;
     }
     header p{
+        font-size: 18px;
         text-align: left;
         margin: 15px 0 30px 0;
     }
